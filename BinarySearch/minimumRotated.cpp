@@ -7,6 +7,10 @@ public:
         int n=nums.size(), mini=INT_MAX, low=0, high=n-1, mid;
         while (low <= high) {
             mid = (low+high)/2;
+            if (nums[low] <= nums[high]) {
+                mini = min(mini,nums[low]);
+                break;
+            }
             if (nums[low] <= nums[mid]) {
                 mini = min(mini,nums[low]);
                 low = mid+1;
