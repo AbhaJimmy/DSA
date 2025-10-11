@@ -10,5 +10,6 @@ class Solution {
     int aggressiveCows(vector<int> &stalls, int k) {
         int n = stalls.size(), low = 1, high = stalls[n-1] - stalls[0];      
         sort(stalls.begin(),stalls.end());
+        return high;
     }
 };
