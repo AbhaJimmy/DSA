@@ -5,6 +5,9 @@ class Solution {
   public:
     bool canWePlace(vector<int> &stalls, int dist, int cows) {
         int n=stalls.size(), count=1, last=stalls[0];
+        for (int i=1; i<n; i++) {
+
+        }
         return false;
     }
     int aggressiveCows(vector<int> &stalls, int k) {
