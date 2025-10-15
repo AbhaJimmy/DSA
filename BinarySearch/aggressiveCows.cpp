@@ -14,7 +14,7 @@ class Solution {
         int n = stalls.size(), low = 1, high = stalls[n-1] - stalls[0];      
         sort(stalls.begin(),stalls.end());
         while (low <= high) {
-            
+            int mid = (low+high)/2;
         }
         return high;
     }
