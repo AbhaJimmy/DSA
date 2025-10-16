@@ -6,7 +6,7 @@ class Solution {
     bool canWePlace(vector<int> &stalls, int dist, int cows) {
         int n=stalls.size(), count=1, last=stalls[0];
         for (int i=1; i<n; i++) {
-            return true;
+            if (count >= cows) return true;
         }
         return false;
     }
