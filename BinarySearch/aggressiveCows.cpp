@@ -19,6 +19,9 @@ class Solution {
         sort(stalls.begin(),stalls.end());
         while (low <= high) {
             int mid = (low+high)/2;
+            if (canWePlace(stalls,mid,k) == true) {
+                low = mid + 1;
+            }
         }
         return high;
     }
