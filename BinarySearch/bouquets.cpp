@@ -4,6 +4,6 @@ using namespace std;
 class Solution {
 public:
     int minDays(vector<int>& bloomDay, int m, int k) {
-        
+        int n=bloomDay.size();
     }
 };
