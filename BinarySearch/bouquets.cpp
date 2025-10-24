@@ -7,5 +7,6 @@ public:
         int n=bloomDay.size();
         long long val = m * 1ll * k * 1ll;
         if (val > n) return -1;
+        int mini = INT_MAX, maxi = INT_MIN;
     }
 };
