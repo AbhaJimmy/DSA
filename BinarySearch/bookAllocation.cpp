@@ -4,7 +4,7 @@ using namespace std;
 class Solution {
   public:
     int findPages(vector<int> &arr, int k) {
-        // code here
+        int n=arr.size();
         
     }
 };
