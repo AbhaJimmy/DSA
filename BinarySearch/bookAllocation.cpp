@@ -5,5 +5,6 @@ class Solution {
   public:
     int findPages(vector<int> &arr, int k) {
         int n=arr.size(), students=1;
+        long long pagesStudent = 0;
     }
 };
