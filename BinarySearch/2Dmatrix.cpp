@@ -5,5 +5,6 @@ class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         int n=matrix.size(), m=matrix[0].size(), low=0, high=n*m-1;
+        int mid = (low + high) / 2;
     }
 };
