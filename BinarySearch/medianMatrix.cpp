@@ -6,5 +6,8 @@ class Solution {
     int median(vector<vector<int>> &mat) {
         int n=mat.size(), m=mat[0].size();
         int low = mat[0][0], high = mat[0][m-1];
+        while (low <= high) {
+            int mid = (low + high) / 2;
+        }
     }
 };
